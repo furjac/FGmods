@@ -299,6 +299,11 @@ This project is provided as-is for educational and commercial integration. You r
 ## 💝 Support This Project
 
 If FGmods saves you time or improves your security posture, consider supporting continued development:
+for upi:
+
+fujack@ybl 
+
+for international users:
 
 [![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/fgmodss)
 
