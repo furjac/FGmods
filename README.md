@@ -7,7 +7,7 @@ A robust, native-layer license verification framework for Android applications. 
 
 ---
 
-## features
+## Features
 
 - per app login (if giving 2 different app to same person the same key won't work)
 
