@@ -262,7 +262,7 @@ Example: `com.example.app` → `/config/update_com_example_app.json`
 
 ## 💬 Support & Contributing
 
-**Questions?** Open an issue or contact the maintainer on Telegram.
+**Questions?** Open an issue or contact me on Telegram: [t.me/furjack](https://t.me/furjack)
 
 **Contributing?** PRs are welcome—please prioritize security hardening and native-layer improvements.
 
