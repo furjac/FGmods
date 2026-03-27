@@ -3,84 +3,81 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Android](https://img.shields.io/badge/Android-NDK%20r23+-green.svg)](https://developer.android.com/ndk)
 
-**FGmods** is a secure, native‑layer license verification framework for Android applications. It offloads all critical logic (crypto, anti‑tampering, network coordination) to a native `.so` library, making it resistant to common Java‑level patching techniques. The Java front‑end is a clean, modern UI shell with dynamic text fetched from your server.
+A robust, native-layer license verification framework for Android applications. FGmods offloads critical security operations (cryptography, anti-tampering, server coordination) to a secure native library, making it resistant to Java-level exploitation. The intuitive UI frontend dynamically syncs strings from your backend, ensuring a polished user experience.
 
 ---
 
-## 🚀 Features
+## 🚀 Key Features
 
-- **Native‑Layer Security**  
-  All sensitive data (URLs, paths, keys) is XOR‑encrypted in the binary and decrypted only at runtime.  
-  Crypto (AES‑256‑CBC, PBKDF2, SHA‑256) uses statically linked OpenSSL.
+- **Native-Layer Security**  
+  Sensitive strings (URLs, API paths, keys) are XOR-encrypted at compile time and decrypted only at runtime. All cryptographic operations (AES-256-CBC, PBKDF2, SHA-256) use statically-linked OpenSSL.
 
-- **Anti‑Debug & Tamper Detection**  
-  Library checks for `ptrace`, `TracerPid`, and suspicious kernel wait channels at load time.  
-  (Sign‑based APK validation is prepared – you must supply your release certificate.)
+- **Anti-Debug & Tamper Protection**  
+  Runtime checks detect `ptrace` attachment, `TracerPid` modifications, and kernel anomalies. Optional APK signature validation prevents repackaging (requires release certificate).
 
-- **Device‑Bound Licensing**  
-  Keys are bound to a device fingerprint (`ANDROID_ID`). Supports multi‑device limits and automatic binding.
+- **Device-Bound Licensing**  
+  License keys bind to device fingerprints using `ANDROID_ID`, with support for multi-device limits and automatic enrollment.
 
-- **Server‑Side Ban Management**  
-  Banned device fingerprints are stored in Firebase. The native library checks this before any other operation.
+- **Server-Side Device Bans**  
+  Blacklist compromised or abusive devices via Firebase. Ban checks execute before any other verification logic.
 
-- **Over‑the‑Air (OTA) Updates**  
-  Per‑app update configs (version, download URL, forced flag) are fetched from Firebase and presented in a native dialog.
+- **Over-the-Air (OTA) Updates**  
+  Fetch per-app version configs from Firebase and present native update dialogs with forced/optional flags.
 
-- **Dynamic UI Text**  
-  All dialog strings (titles, buttons, error messages) are fetched from a Firebase JSON file and cached locally.
+- **Dynamic UI Strings**  
+  All dialog text (titles, buttons, errors) is cached locally and refreshed from Firebase, eliminating hardcoded strings.
 
-- **Secure Storage**  
-  License keys are encrypted with a device‑derived AES key and stored in `SharedPreferences`.
+- **Encrypted Local Storage**  
+  License keys are AES-encrypted with device-derived keys and persisted in `SharedPreferences`.
 
-- **Clean, Modern UI**  
-  Dark theme, rounded corners, smooth animations – fully customisable via server‑side JSON.
+- **Modern, Customizable UI**  
+  Dark theme with smooth animations and rounded corners. Fully configurable via server-side JSON.
 
 ---
 
 ## 📁 Project Structure
 
 ```
-
 FGmods/
-├── app/                               (Android application module)
+├── app/                               # Android application module
 │   ├── src/main/java/fg/fgmods/key/
-│   │   ├── fgmods.java                – UI shell, entry point
-│   │   ├── MainActivity.java          – example Activity
-│   │   ├── NativeNetHelper.java       – HTTP bridge for native code
-│   │   └── NativePrefsHelper.java     – SharedPreferences bridge
+│   │   ├── fgmods.java                # Main gateway UI and entry point
+│   │   ├── MainActivity.java          # Example integration activity
+│   │   ├── NativeNetHelper.java       # HTTP bridge to native layer
+│   │   └── NativePrefsHelper.java     # SharedPreferences bridge to native layer
 │   ├── src/main/cpp/
-│   │   ├── native-lib.cpp             – core native logic
-│   │   └── CMakeLists.txt             – builds fgaccess.so
-│   └── openssl/                       – static OpenSSL libraries (per ABI)
-├── encrypt.py                         – helper script to encrypt strings
+│   │   ├── native-lib.cpp             # Core security and license logic
+│   │   └── CMakeLists.txt             # Builds fgaccess.so library
+│   └── openssl/                       # Pre-built OpenSSL static libraries per ABI
+├── encrypt.py                         # String encryption utility
 └── README.md
-
 ```
 
 ---
 
 ## 🛠 Prerequisites
 
-- Android Studio / Gradle
-- NDK (r23+ recommended)
-- OpenSSL prebuilt static libraries for all target ABIs (arm64-v8a, armeabi-v7a, x86, x86_64)  
-  Place them in `openssl/<ABI>/lib/` and headers in `openssl/include/`.
+- **Android Studio** with Gradle
+- **Android NDK** (r23 or newer)
+- **OpenSSL static libraries** for all target ABIs (arm64-v8a, armeabi-v7a, x86, x86_64)
+  - Place libraries in `openssl/<ABI>/lib/`
+  - Place headers in `openssl/include/`
 
 ---
 
-## 🔨 Building the Native Library
+## 🔨 Quick Start: Building
 
-### 1. Obtain OpenSSL
+### 1. Prepare OpenSSL Libraries
 
-Download or build static libraries for Android.  
-Example using [openssl‑ndk](https://github.com/amitshekhariitbhu/openssl-ndk) or follow the [OpenSSL Android instructions](https://github.com/openssl/openssl/blob/master/NOTES-ANDROID.md).  
-After building, copy the `libcrypto.a` and `libssl.a` files into the corresponding ABI folders inside `openssl/`.
+Download or build OpenSSL static libraries for Android:
+- Reference: [openssl-ndk](https://github.com/amitshekhariitbhu/openssl-ndk)
+- Docs: [OpenSSL Android Build](https://github.com/openssl/openssl/blob/master/NOTES-ANDROID.md)
 
-### 2. Encrypt your constants
+Copy `libcrypto.a` and `libssl.a` to the respective ABI subdirectories.
 
-The native code uses XOR‑encrypted strings. The provided `encrypt.py` script generates the byte arrays you need to paste into `native-lib.cpp`.
+### 2. Configure Encrypted Strings
 
-Edit `encrypt.py` and set your actual Firebase database URL and paths:
+Edit `encrypt.py` with your Firebase endpoints:
 
 ```python
 STRINGS = {
@@ -93,13 +90,13 @@ STRINGS = {
 }
 ```
 
-Run the script:
+Run the encryption script:
 
 ```bash
 python3 encrypt.py
 ```
 
-It will output C++ array declarations like:
+This outputs C++ array declarations. Copy these into `native-lib.cpp`:
 
 ```cpp
 // Original: 'https://your-project.firebaseio.com/'
@@ -107,19 +104,17 @@ static const unsigned char URL_ENC[] = { ... };
 static const unsigned char URL_KEY[] = { ... };
 ```
 
-Copy this block and replace the placeholder definitions in native-lib.cpp (the sections marked URL_ENC, URL_KEY, etc.).
+### 3. Build the APK
 
-3. Build the APK
-
-Open the project in Android Studio and build it. The native library will be compiled via CMake.
+Open the project in Android Studio and build. CMake automatically compiles the native library.
 
 ---
 
-📦 Integrating FGmods into Your App
+## 📦 Integration Guide
 
-Java / Kotlin Integration
+### Java/Kotlin
 
-Add the fg.fgmods.key package and the native library to your project. In your main Activity, simply create an instance and call showGateway():
+Import the gateway and invoke it early in your main Activity:
 
 ```java
 import fg.fgmods.key.fgmods;
@@ -128,45 +123,47 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // ... your setup ...
+        setContentView(R.layout.activity_main);
 
+        // Initialize FGmods license check (blocks until verification completes)
         fgmods gateway = new fgmods();
-        gateway.showGateway(this);  // This blocks until license is verified
+        gateway.showGateway(this);
     }
 }
 ```
 
-Smali Integration (for modded apps)
+### Smali (APK Patching)
 
-If you are patching an existing APK, you can insert the call to showGateway in the target Activity's onCreate method. Use this smali code:
+Insert the following into the target Activity's `onCreate` method after `invoke-super`:
 
 ```smali
 new-instance v0, Lfg/fgmods/key/fgmods;
-
 invoke-direct {v0}, Lfg/fgmods/key/fgmods;-><init>()V
-
 move-object p0, p0
-
 invoke-virtual {v0, p0}, Lfg/fgmods/key/fgmods;->showGateway(Landroid/app/Activity;)V
 ```
 
-Insert this after the invoke-super call in onCreate. Make sure to add the fg/fgmods/key/fgmods class (and its dependencies) to the APK.
+Ensure the `fg/fgmods/key/` package and dependencies are included in the modified APK.
 
 ---
 
-🔐 Firebase Database Schema
+## 🔐 Firebase Database Schema
 
-FGmods expects your Firebase Realtime Database to be structured as follows (paths are configurable via encrypted strings):
+Your Firebase Realtime Database should follow this structure (paths are configurable via encrypted strings):
 
-/bans/<hashedDeviceFp>.json
+### Device Ban List
+**Path:** `/bans/<hashedDeviceFingerprint>.json`
 
 ```json
-{ "reason": "Violation of terms." }
+{
+  "reason": "Violation of terms of service."
+}
 ```
 
-If present, the device is banned.
+If a device hash exists here, access is denied immediately.
 
-/keys/<rawKey>.json
+### License Key Registry
+**Path:** `/keys/<licenseKey>.json`
 
 ```json
 {
@@ -177,27 +174,31 @@ If present, the device is banned.
 }
 ```
 
-· expirydate – milliseconds since epoch.
-· app_package – optional, restricts key to one app.
-· max_devices – how many devices can bind this key.
-· devices – comma‑separated list of hashed device fingerprints.
+| Field | Description |
+|-------|-------------|
+| `expirydate` | Unix timestamp (ms) when the license expires |
+| `app_package` | (Optional) Package name; restricts key to one app |
+| `max_devices` | Maximum devices allowed to bind this key |
+| `devices` | Comma-separated hashes of already-bound devices |
 
-/devices/<hashedDeviceFp>.json
+### Device Registry
+**Path:** `/devices/<hashedDeviceFingerprint>.json`
 
 ```json
 {
-  "deviceId": "hash",
+  "deviceId": "hash_value",
   "model": "Pixel 6",
   "manufacturer": "Google",
   "lastSeen": 1700000000000,
-  "key": "the raw key used",
+  "key": "license_key_used",
   "appPackage": "com.example.app"
 }
 ```
 
-Created after successful verification.
+Created after successful license verification; updated on each check-in.
 
-/config/ui_texts.json
+### UI Text Configuration
+**Path:** `/config/ui_texts.json`
 
 ```json
 {
@@ -216,7 +217,7 @@ Created after successful verification.
   "update_now": "Update Now",
   "update_download_progress": "Downloading update...",
   "error_title": "Connection Error",
-  "network_error": "Failed to verify device status...",
+  "network_error": "Failed to verify device status.",
   "retry": "Retry",
   "exit": "Exit",
   "error_key_not_found": "License key not found.",
@@ -228,62 +229,55 @@ Created after successful verification.
 }
 ```
 
-All UI texts are fetched at runtime; if the network fails, the cached version is used.
+Fetched at runtime; cached version used on network failure.
 
-/config/update_<package_name>.json
+### OTA Update Configuration
+**Path:** `/config/update_<package_name>.json` (replace `.` with `_`)
 
 ```json
 {
   "version_code": 2,
-  "download_url": "https://example.com/update.apk",
-  "update_message": "A new version is available.",
+  "download_url": "https://example.com/app-v2.apk",
+  "update_message": "Critical security patches included.",
   "force_update": true
 }
 ```
 
-Used for OTA updates. Replace . in package name with _ (e.g., com_example_app).
+Example: `com.example.app` → `/config/update_com_example_app.json`
 
 ---
 
-🛡 Security Considerations
+## 🛡 Security Architecture
 
-· String Obfuscation
-    All sensitive strings are XOR‑encrypted with a key stored separately in the binary. This makes static analysis harder.
-· Anti‑Debug
-    ptrace and TracerPid checks are performed early. You may extend checkSignature() with your own APK signature validation.
-· Native Crypto
-    OpenSSL is statically linked, reducing dependency on system libraries. AES‑256‑CBC with PBKDF2 key derivation is used.
-· JNI Isolation
-    The Java layer only calls a handful of native methods; all business logic stays in C++. This prevents easy hooking with tools like Frida or Xposed.
-· Lockout Mechanism
-    After 10 failed attempts, the device is locked for 15 minutes (configurable).
-· Device Fingerprint
-    Uses ANDROID_ID (falls back to "unknown_id" if unavailable). No permissions required.
+| Feature | Implementation |
+|---------|-----------------|
+| **String Obfuscation** | XOR encryption with embedded key; decrypted only at runtime |
+| **Anti-Debug** | `ptrace` detection, `TracerPid` inspection, kernel state checks |
+| **Cryptography** | Static OpenSSL linking (no system dependency); AES-256-CBC with PBKDF2 |
+| **JNI Hardening** | Minimal Java ↔ Native calls; all logic in C++ to prevent Frida/Xposed hooks |
+| **Brute-Force Protection** | 10-attempt lockout (15 minutes, configurable) |
+| **Device ID** | `ANDROID_ID` with fallback; no extra permissions required |
 
 ---
 
-💝 Support the Project
+## 💬 Support & Contributing
 
-If you find FGmods useful and want to support further development, consider a donation:
+**Questions?** Open an issue or contact the maintainer on Telegram.
 
-https://img.shields.io/badge/Donate-PayPal-blue.svg
-
-Your support helps keep the project maintained and improved!
+**Contributing?** PRs are welcome—please prioritize security hardening and native-layer improvements.
 
 ---
 
-📄 License
+## 📄 License
 
-This project is provided as‑is for educational and integration purposes. You are free to use it in your own applications, but you must ensure compliance with the licenses of its dependencies (OpenSSL, etc.). The author assumes no liability for misuse.
-
----
-
-🤝 Contributing
-
-Pull requests and issues are welcome. Please keep the native‑layer security improvements in mind when contributing.
+This project is provided as-is for educational and commercial integration. You retain full responsibility for compliance with its dependencies' licenses (OpenSSL, etc.). The author disclaims liability for misuse.
 
 ---
 
-📞 Support
+## 💝 Support This Project
 
-For questions or customisation, contact the project maintainer on Telegram.
+If FGmods saves you time or improves your security posture, consider supporting continued development:
+
+[![Donate via PayPal](https://img.shields.io/badge/Donate-PayPal-blue.svg)](https://paypal.me/fgmodss)
+
+Your contributions help keep the project maintained and improved!
