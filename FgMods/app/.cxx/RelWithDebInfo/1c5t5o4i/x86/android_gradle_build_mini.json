@@ -1,0 +1,27 @@
+{
+  "buildFiles": [
+    "/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/bin/ninja",
+      "-C",
+      "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/bin/ninja",
+    "-C",
+    "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "fgaccess::@6890427a1f51a3e7e1df": {
+      "artifactName": "fgaccess",
+      "abi": "x86",
+      "output": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/x86/libfgaccess.so",
+      "runtimeFiles": []
+    }
+  }
+}

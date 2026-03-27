@@ -1,0 +1,2 @@
+ninja: Entering directory `/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/arm64-v8a'
+[1/1] Linking CXX shared library /storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/arm64-v8a/libfgaccess.so

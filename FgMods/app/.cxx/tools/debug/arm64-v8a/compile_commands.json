@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/655y2x3q/arm64-v8a",
+  "command": "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/linux-arm64/bin/clang++ --target=aarch64-none-linux-android21 --sysroot=/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/toolchains/llvm/prebuilt/linux-arm64/sysroot -Dfgaccess_EXPORTS -I/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp/openssl/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fvisibility=hidden -fno-limit-debug-info  -fPIC -fvisibility=hidden -fvisibility-inlines-hidden -o CMakeFiles/fgaccess.dir/native-lib.cpp.o -c /storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp/native-lib.cpp",
+  "file": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp/native-lib.cpp",
+  "output": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/655y2x3q/arm64-v8a/CMakeFiles/fgaccess.dir/native-lib.cpp.o"
+}
+]

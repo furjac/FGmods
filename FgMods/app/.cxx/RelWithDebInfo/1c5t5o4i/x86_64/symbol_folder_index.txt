@@ -1,0 +1,1 @@
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/x86_64

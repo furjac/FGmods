@@ -1,0 +1,20 @@
+{
+  "allFiles": [
+    {
+      "file": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/java/fg/fgmods/key/MainActivity.java",
+      "selection": {
+        "end": {
+          "column": 1,
+          "index": 326,
+          "line": 11
+        },
+        "start": {
+          "column": 1,
+          "index": 326,
+          "line": 11
+        }
+      }
+    }
+  ],
+  "selectedFile": "/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/java/fg/fgmods/key/MainActivity.java"
+}

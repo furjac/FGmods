@@ -1,0 +1,3 @@
+ninja: Entering directory `/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/x86_64'
+[1/2] Building CXX object CMakeFiles/fgaccess.dir/native-lib.cpp.o
+[2/2] Linking CXX shared library /storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/x86_64/libfgaccess.so

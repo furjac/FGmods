@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "fg.fgmods.key.app-release-38:/layout_activity_main.xml.flat",
+        "source": "fg.fgmods.key.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/xml_backup_rules.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/drawable_ic_launcher_background.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/layout_activity_main.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-pngs-34:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/xml_data_extraction_rules.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-release-38:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/data/user/0/com.tom.rv2ide/files/home/.gradle/daemon/9.0.0/fg.fgmods.key.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "fg.fgmods.key.app-release-38:/xml_file_paths.xml.flat",
+        "source": "fg.fgmods.key.app-main-39:/xml/file_paths.xml"
+    }
+]

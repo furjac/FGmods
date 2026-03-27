@@ -1,0 +1,3 @@
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/armeabi-v7a/CMakeFiles/fgaccess.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/armeabi-v7a/CMakeFiles/edit_cache.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/armeabi-v7a/CMakeFiles/rebuild_cache.dir

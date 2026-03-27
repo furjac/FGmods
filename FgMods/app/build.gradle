@@ -1,0 +1,56 @@
+plugins {
+    alias(libs.plugins.android.application)
+}
+
+android {
+    namespace 'fg.fgmods.key'
+    compileSdk 36
+    ndkVersion '29.0.14033849'
+
+    defaultConfig {
+        applicationId 'fg.fgmods.key'
+        minSdk 21
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        // ✅ Correct placement: inside defaultConfig
+        externalNativeBuild {
+            cmake {
+                cppFlags "-fvisibility=hidden"
+                arguments "-DCMAKE_CXX_VISIBILITY_PRESET=hidden", "-DCMAKE_VISIBILITY_INLINES_HIDDEN=1"
+            }
+        }
+    }
+
+    buildFeatures {
+        viewBinding true
+    }
+
+    // This block only tells Gradle where to find CMakeLists.txt
+    externalNativeBuild {
+        cmake {
+            path 'src/main/cpp/CMakeLists.txt'
+            version '4.1.2'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    implementation libs.androidx.core
+    implementation libs.androidx.appcompat
+    implementation libs.material
+    implementation libs.androidx.constraintlayout
+    implementation 'androidx.core:core:1.9.0'
+
+    // Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+
+    // ✅ Correct: no comment inside the string
+    implementation 'com.google.firebase:firebase-database'
+}

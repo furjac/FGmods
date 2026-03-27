@@ -1,0 +1,3 @@
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/655y2x3q/x86/CMakeFiles/fgaccess.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/655y2x3q/x86/CMakeFiles/edit_cache.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/655y2x3q/x86/CMakeFiles/rebuild_cache.dir

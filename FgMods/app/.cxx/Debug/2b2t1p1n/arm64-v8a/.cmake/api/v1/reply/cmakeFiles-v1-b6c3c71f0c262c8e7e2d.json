@@ -1,0 +1,283 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/2b2t1p1n/arm64-v8a/CMakeFiles/4.1.2-dirty/CMakeSystem.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/android.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/android-legacy.toolchain.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/abis.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/platforms.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android-Initialize.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/hooks/pre/Android-Initialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/2b2t1p1n/arm64-v8a/CMakeFiles/4.1.2-dirty/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/2b2t1p1n/arm64-v8a/CMakeFiles/4.1.2-dirty/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/hooks/pre/Android.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/hooks/pre/Android-Clang.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/flags.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Android-LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Linux-LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Linux-LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Android-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Linker/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Android-LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Linux-LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/share/cmake-4.1/Modules/Platform/Linker/Linux-LLD.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/2b2t1p1n/arm64-v8a",
+		"source" : "/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

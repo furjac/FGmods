@@ -1,0 +1,4 @@
+/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/bin/ninja \
+  -C \
+  /storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/Debug/2b2t1p1n/armeabi-v7a \
+  myapplication

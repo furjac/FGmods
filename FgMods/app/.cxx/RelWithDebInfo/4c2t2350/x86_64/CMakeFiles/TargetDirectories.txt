@@ -1,0 +1,3 @@
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/4c2t2350/x86_64/CMakeFiles/fgaccess.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/4c2t2350/x86_64/CMakeFiles/edit_cache.dir
+/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/4c2t2350/x86_64/CMakeFiles/rebuild_cache.dir

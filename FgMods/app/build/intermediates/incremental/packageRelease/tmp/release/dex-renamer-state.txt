@@ -1,0 +1,10 @@
+#Thu Mar 26 10:52:14 GMT 2026
+base.2=/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/dex/release/mergeDexRelease/classes2.dex
+path.2=classes2.dex
+base.1=/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/global_synthetics_dex/release/mergeReleaseGlobalSynthetics/classes.dex
+path.1=classes.dex
+base.0=/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

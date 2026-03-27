@@ -1,0 +1,2 @@
+ninja: Entering directory `/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/1c5t5o4i/x86'
+ninja: no work to do.

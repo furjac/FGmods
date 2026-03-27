@@ -1,0 +1,18 @@
+                        -H/storage/emulated/0/AndroidIDEProjects/FgMods/app/src/main/cpp
+-DCMAKE_SYSTEM_NAME=Android
+-DCMAKE_EXPORT_COMPILE_COMMANDS=ON
+-DCMAKE_SYSTEM_VERSION=21
+-DANDROID_PLATFORM=android-21
+-DANDROID_ABI=arm64-v8a
+-DCMAKE_ANDROID_ARCH_ABI=arm64-v8a
+-DANDROID_NDK=/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849
+-DCMAKE_ANDROID_NDK=/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849
+-DCMAKE_TOOLCHAIN_FILE=/data/user/0/com.tom.rv2ide/files/home/android-sdk/ndk/29.0.14033849/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/bin/ninja
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/4c2t2350/obj/arm64-v8a
+-DCMAKE_RUNTIME_OUTPUT_DIRECTORY=/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/4c2t2350/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=RelWithDebInfo
+-B/storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/4c2t2350/arm64-v8a
+-GNinja
+                        Build command args: []
+                        Version: 2

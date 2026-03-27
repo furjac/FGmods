@@ -1,0 +1,5 @@
+# ninja log v6
+32	9597	1774522004327589842	CMakeFiles/fgaccess.dir/native-lib.cpp.o	581b1e275fba0770
+9616	10416	1774522018031112292	/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/x86_64/libfgaccess.so	11d08d344ed8c114
+30	7516	1774522322096570782	CMakeFiles/fgaccess.dir/native-lib.cpp.o	581b1e275fba0770
+7523	7926	1774522329592570777	/storage/emulated/0/AndroidIDEProjects/FgMods/app/build/intermediates/cxx/RelWithDebInfo/1c5t5o4i/obj/x86_64/libfgaccess.so	11d08d344ed8c114

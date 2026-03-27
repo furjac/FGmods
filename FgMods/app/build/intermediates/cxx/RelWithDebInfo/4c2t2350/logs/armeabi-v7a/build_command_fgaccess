@@ -1,0 +1,4 @@
+/data/user/0/com.tom.rv2ide/files/home/android-sdk/cmake/4.1.2/bin/ninja \
+  -C \
+  /storage/emulated/0/AndroidIDEProjects/FgMods/app/.cxx/RelWithDebInfo/4c2t2350/armeabi-v7a \
+  fgaccess
