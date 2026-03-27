@@ -17,6 +17,16 @@ A robust, native-layer license verification framework for Android applications. 
 
 - firebase Realtime Database 
 
+- can't be modded through java
+
+- allow upto n number of users per key
+
+- auto fetch of everything from firebase no need to restart app
+
+- every text and url are encrypted 
+
+- anti time travel (users can't change time and date to cheat )
+
 ---
 
 ## 🚀 Key Features
