@@ -7,6 +7,18 @@ A robust, native-layer license verification framework for Android applications. 
 
 ---
 
+## features
+
+- per app login (if giving 2 different app to same person the same key won't work)
+
+- per app update ota
+
+- every text is customisable 
+
+- firebase Realtime Database 
+
+---
+
 ## 🚀 Key Features
 
 - **Native-Layer Security**  
