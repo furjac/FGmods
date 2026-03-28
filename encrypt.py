@@ -5,7 +5,7 @@ encrypt_strings.py
 Companion script for native-lib.cpp.
 
 Usage:
-    python3 encrypt_strings.py
+    python3 encrypt.py
 
 Outputs C++ array declarations ready to paste into the
 "ENCRYPTED DATA" section of native-lib.cpp.
